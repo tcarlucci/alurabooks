@@ -1,0 +1,34 @@
+@import url(../styles/header.css);
+@import url(../styles/banner.css);
+@import url(../styles/carrossel.css);
+@import url(../styles/topics.css);
+@import url(../styles/registration.css);
+@import url(../styles/footer.css);
+
+:root {
+    --background-color: #C4C4C4;
+    --White-color: #FFFFFF;
+    --orange-color: #EB9B00;
+    --blue-color: #002F52;
+    --gray-color: #858585;
+    --dark-gray-color: #474646;
+    --black-color: #000;
+    --blue-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --main-font: 400 16px "Poppins";
+    --logo-font: "Josefin Sans";
+    --font-light: 300;
+    --font-medium: 500;
+    --font-bold: 700;
+    --section-title: 700 18px "Poppins"; 
+    --section-title-1728: 700 32px "Poppins";
+
+    /* USAR FONT: 
+      MODELO: 400 16PX "FONTE";
+    */
+}
+
+body {
+    background-color: var(--background-color);
+    font: var(--main-font);
+    /* NORMALMENTE 16PX É PADRÃO */
+}

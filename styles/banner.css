@@ -1,0 +1,83 @@
+.banner {
+    background: var(--blue-gradient);
+    color: var(--White-color);
+    text-align: center;
+    /* height: 215px; */
+    padding: 2.5em 2em;
+}
+
+.banner__title {
+    font-size: 18px;
+    font-weight: var(--font-bold);
+}
+
+.banner__text {
+    font-weight: var(--font-medium);
+    margin: 1em 0;
+}
+
+.banner__search{
+    background-color: transparent;
+    border: 1px solid var(--White-color);
+    color: var(--White-color);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+}
+
+.banner__search::placeholder{
+    font: var(--main-font);
+    font-size: 14px;
+    color: var(--White-color);
+    text-align: center;
+    background: url(../img/Pesquisa.svg) no-repeat;
+    background-position: 1em ;
+    padding-left: 2em;
+
+}
+
+/* .banner__search_button{
+    border: 1px solid   var(--White-color);
+    border-radius: 25px;
+    padding: 2px;
+
+} */
+
+@media screen and (min-width:1024px){
+
+    .banner{
+        padding: 4.8em 2em;
+    }
+
+    .banner__title {
+        font-size: 36px;
+    }
+
+    .banner__text {
+        font-size: 16px;
+    }
+
+    .banner__search{
+        width: 50%;
+        padding: 1.5em 0 ;
+    }
+    
+    .banner__search::placeholder{
+        font-size: 16px;
+        background-position: 5.5em ;
+    }
+
+}
+
+@media screen and (min-width:1728px){
+
+    .banner__search{
+        width: 35%;
+        padding: 1.5em 0 ;
+    }
+
+    .banner__search::placeholder{
+        background-position: 9.5em ;
+    }
+
+}
