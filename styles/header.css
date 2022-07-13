@@ -11,7 +11,7 @@
 /* Combinadores CSS */
 
 .container__button:checked~.container__label>.head__menu_hamburger {
-    background-image: url("/img/menu_click.svg");
+    background-image: url("../img/menu_click.svg");
 }
 
 .container__button:checked~.container__label {
