@@ -1,0 +1,17 @@
+.container__button {
+  display: none;
+}
+
+/* Combinadores CSS */
+
+.container__button:checked ~ .container__label > .head__menu--hamburger {
+  background-image: url("../../../img/menu_click.svg");
+}
+
+.container__button:checked ~ .container__label {
+  background: var(--blue-gradient);
+}
+
+.container__button:checked ~ .menu__list {
+  display: block;
+}

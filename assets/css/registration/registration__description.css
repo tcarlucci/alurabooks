@@ -1,0 +1,12 @@
+@media screen and (min-width: 1024px) {
+  .registration__description {
+    margin-right: 1em;
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .registration__description {
+    padding: 1em 0 0 0;
+  }
+}

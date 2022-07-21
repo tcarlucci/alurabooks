@@ -1,0 +1,10 @@
+.description__title {
+  color: var(--orange-color);
+  font-weight: 700;
+}
+
+@media screen and (min-width: 1728px) {
+  .description__title {
+    font-size: 32px;
+  }
+}

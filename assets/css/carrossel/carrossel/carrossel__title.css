@@ -1,0 +1,14 @@
+.carrossel__title {
+  background-color: var(--White-color);
+  color: var(--orange-color);
+  font: var(--section-title);
+  padding: 1.2em 0 0.5em 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1728px) {
+  .carrossel__title {
+    font: var(--section-title-1728);
+  }
+}

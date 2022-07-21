@@ -1,0 +1,12 @@
+@media screen and (min-width: 1024px) {
+  .options__item {
+    margin-left: 3em;
+    padding: 2em 1em;
+    text-align: center;
+  }
+
+  .options__item--link {
+    color: var(--black-color);
+    text-decoration: none;
+  }
+}

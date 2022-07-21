@@ -1,0 +1,5 @@
+@media screen and (min-width: 1024px) {
+  .options__first {
+    padding-left: 2em;
+  }
+}

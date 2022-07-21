@@ -1,0 +1,20 @@
+.container__title {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .container__title,
+  .container__title--bold {
+    font-family: var(--logo-font);
+    font-size: 30px;
+  }
+
+  .container__title {
+    display: block;
+    font-weight: 400;
+  }
+
+  .container__title--bold {
+    font-weight: 700;
+  }
+}

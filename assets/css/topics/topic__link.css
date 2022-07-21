@@ -1,0 +1,6 @@
+.topic__link {
+  background-color: var(--orange-color);
+  color: var(--White-color);
+  padding: 1.2em;
+  text-decoration: none;
+}

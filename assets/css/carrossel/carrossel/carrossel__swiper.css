@@ -1,0 +1,7 @@
+@media screen and (min-width: 1728px) {
+  .carrossel__swiper {
+    align-items: center;
+    display: flex;
+    margin: 0 20vw 3em 20vw; /* VW medida de tela */
+  }
+}

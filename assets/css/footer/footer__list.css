@@ -1,0 +1,40 @@
+.footer__list--education,
+.footer__list--education-online,
+.footer__list--community {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__list--education,
+  .footer__list--education-online,
+  .footer__list--community {
+    display: inline-block;
+  }
+
+  .footer__list--title {
+    color: var(--gray-color);
+    font-size: 14px;
+    padding: 0 0 1.5em 0;
+  }
+
+  .footer__list--item {
+    align-items: center;
+    display: flex;
+    margin-bottom: 1em;
+  }
+
+  .footer__list--link {
+    color: var(--dark-gray-color);
+    margin-left: 1em;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .footer__list--education,
+  .footer__list--education-online,
+  .footer__list--community {
+    border-left: 1px solid var(--gray-color);
+    padding-left: 1em;
+  }
+}

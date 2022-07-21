@@ -1,0 +1,5 @@
+.white__bar {
+  background-color: var(--White-color);
+  height: 20px;
+  width: 100%;
+}

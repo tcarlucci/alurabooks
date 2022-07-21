@@ -1,0 +1,11 @@
+.registration__text {
+  color: var(--blue-color);
+  font-weight: 300;
+  padding: 1em 1em 1.5em;
+}
+
+@media screen and (min-width: 1024px) {
+  .registration__text {
+    font-size: 16px;
+  }
+}

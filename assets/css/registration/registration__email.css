@@ -1,0 +1,23 @@
+.registration__email {
+  border: 1px solid var(--blue-color);
+  border-radius: 24px;
+  padding: 1em;
+  width: 90%;
+}
+
+.registration__email::placeholder {
+  background-image: url(../../img/email.svg);
+  background-repeat: no-repeat;
+  padding-left: 2em;
+}
+
+.registration__email,
+.registration__email::placeholder {
+  color: var(--blue-color);
+}
+
+@media screen and (min-width: 1024px) {
+  .registration__email {
+    width: 30%;
+  }
+}

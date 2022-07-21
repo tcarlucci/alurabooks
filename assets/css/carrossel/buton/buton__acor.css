@@ -1,0 +1,7 @@
+.buton__acor {
+  background-color: var(--orange-color);
+  color: var(--White-color);
+  font-weight: 700;
+  padding: 1em 2.7em;
+  text-decoration: none;
+}

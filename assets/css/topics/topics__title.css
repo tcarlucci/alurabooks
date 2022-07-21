@@ -1,0 +1,18 @@
+.topics__title {
+  color: var(--White-color);
+  padding: 2em;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .topics__title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .topics__title {
+    font-size: 32px;
+    padding: 1em 0.5em 0.7em;
+  }
+}

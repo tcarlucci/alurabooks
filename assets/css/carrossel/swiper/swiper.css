@@ -1,0 +1,11 @@
+@media screen and (min-width: 1024px) {
+  .swiper {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .swiper {
+    width: 50%;
+  }
+}

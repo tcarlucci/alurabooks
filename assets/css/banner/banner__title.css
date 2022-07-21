@@ -1,0 +1,10 @@
+.banner__title {
+  font-size: 18px;
+  font-weight: var(--font-bold);
+}
+
+@media screen and (min-width: 1024px) {
+  .banner__title {
+    font-size: 36px;
+  }
+}

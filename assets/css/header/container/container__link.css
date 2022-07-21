@@ -1,0 +1,8 @@
+@media screen and (min-width: 1728px) {
+  .container__link {
+    align-items: center;
+    color: var(--black-color);
+    display: flex;
+    text-decoration: none;
+  }
+}

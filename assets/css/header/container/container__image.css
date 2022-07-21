@@ -1,0 +1,13 @@
+.container__image {
+  padding: 0 1em 0 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .container__image {
+    margin-left: 2em;
+  }
+
+  .container__image--favorites {
+    display: none;
+  }
+}

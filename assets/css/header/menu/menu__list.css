@@ -1,0 +1,46 @@
+.menu__list {
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 60vw;
+  /* A medida vh e vw são iguais a 1/100 da altura da viewport. Então, por exemplo, se a altura do navegador é 900px, 1vh equivale a 9px.
+      E, analogamente, se a largura da viewport é 750px, 1vw equivale a 7.5px.  */
+}
+
+.menu__list--item,
+.menu__list--title {
+  background-color: var(--White-color);
+  padding: 1em;
+}
+
+.menu__list--title {
+  color: var(--orange-color);
+  font-weight: var(--font-bold);
+}
+
+.menu__list--link {
+  /* APLICAR COR SOMENTE NO TEXTO */
+  background-clip: text;
+  /* ----------------------------*/
+  background: var(--blue-gradient);
+  text-transform: uppercase;
+  /* FUNCIONAR EM OUTROS NAVEGADORES */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu__list--item:hover {
+  background: var(--blue-gradient);
+}
+
+.menu__list--item:hover > .menu__list--link {
+  text-decoration: none;
+  -webkit-text-fill-color: var(--White-color);
+}
+
+@media screen and (min-width: 1024px) {
+  .menu__list {
+    margin-left: 3em;
+    width: auto;
+  }
+}

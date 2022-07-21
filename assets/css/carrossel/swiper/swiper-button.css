@@ -1,0 +1,12 @@
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: block;
+    top: 60%;
+  }
+}

@@ -1,0 +1,14 @@
+.head__menu--hamburger {
+  background-image: url("../../../img/Menu.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+}
+
+@media screen and (min-width: 1024px) {
+  .head__menu--hamburger {
+    display: none;
+  }
+}

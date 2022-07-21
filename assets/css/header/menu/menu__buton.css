@@ -1,0 +1,13 @@
+@media screen and (min-width: 1024px) {
+  .menu__buton:checked ~ .options__label > .options__item {
+    background: var(--blue-gradient);
+    color: var(--White-color);
+  }
+
+  .menu__buton:checked ~ .menu__list {
+    display: block;
+  }
+  .menu__buton {
+    display: none;
+  }
+}
