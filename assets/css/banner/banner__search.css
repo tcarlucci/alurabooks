@@ -8,7 +8,7 @@
 }
 
 .banner__search::placeholder {
-  background: url(../img/Pesquisa.svg) no-repeat;
+  background: url(../../img/Pesquisa.svg) no-repeat;
   background-position: 1em;
   color: var(--White-color);
   font: var(--main-font);
